@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #262626;
+  --color-bg-variant: #3b3b3b;
+  --color-green: #0ba376;
+  --color-green-variant: rgba(77, 255, 157, 0.4);
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --transition: all 400ms ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  background: var(--color-bg);
+}
+
+/* General Styling */
+
+.container {
+  margin: 0 auto;
+  width: var(--container-width-lg);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+}
+section {
+  margin-top: 8rem;
+}
+section > h5 {
+  color: var(--color-green);
+  text-align: center;
+}
+section > h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.text-light {
+  color: var(--color-green-variant);
+}
+a {
+  color: var(--color-green);
+  transition: var(--transition);
+}
+a:hover {
+  color: white;
+}
+.btn {
+  display: inline-block;
+  color: var(--color-green);
+  padding: 0.75rem 1.2rem;
+  width: max-content;
+  border-radius: 0.4rem;
+  border: 0.063rem solid var(--color-green);
+  transition: var(--transition);
+}
+.btn:hover {
+  color: white;
+  border-color: transparent;
+  background: transparent;
+}
+.btn-primary {
+  color: white;
+  background: var(--color-green);
+}
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 64rem) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 37.5rem) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
