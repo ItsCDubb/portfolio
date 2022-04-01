@@ -7,7 +7,7 @@ const Portfolio = () => {
       <h5>View My</h5>
       <h2>Portfolio & Certificates</h2>
       <div className="container portfolio__container">
-        {PortfolioData.map(({ id, image, title, url }) => {
+        {PortfolioData.map(({ id, image, title, url, github }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__image">
@@ -23,6 +23,18 @@ const Portfolio = () => {
                     rel="noreferrer"
                   >
                     View
+                  </a>
+                </div>
+              ) : null}
+              {github ? (
+                <div className="portfolio__cta">
+                  <a
+                    className="btn"
+                    href={github}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    GitHub
                   </a>
                 </div>
               ) : null}
