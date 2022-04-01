@@ -81,7 +81,7 @@ a:hover {
 .btn:hover {
   color: white;
   border-color: transparent;
-  background: transparent;
+  background: var(--color-green);
 }
 .btn-primary {
   color: white;
