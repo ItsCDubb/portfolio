@@ -27,7 +27,7 @@ const Contact = () => {
           <article className="contact__option">
             <GoLocation className="contact__icon" />
             <h4>Location</h4>
-            <h5>Muncie, IN</h5>
+            <h5>San Antonio, TX</h5>
           </article>
           <article className="contact__option">
             <MdOutlineAlternateEmail className="contact__icon" />

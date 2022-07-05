@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0603455b.css",
+    "main.js": "/static/js/main.4a3979f7.js",
+    "static/media/header.jpg": "/static/media/header.aa0fe29c940868f8b03a.jpg",
+    "static/media/Chris-Warren.pdf": "/static/media/Chris-Warren.554d394aa44696bf9903.pdf",
+    "static/media/slack-look-a-like.png": "/static/media/slack-look-a-like.c30731f9c8021affae6d.png",
+    "static/media/netflix-look-a-like.png": "/static/media/netflix-look-a-like.cf0dd9933b566cccf6da.png",
+    "static/media/amazon-look-a-like.png": "/static/media/amazon-look-a-like.8efb862725ec11e9684d.png",
+    "static/media/twitter-look-a-like.png": "/static/media/twitter-look-a-like.5fdbd139a952a4886162.png",
+    "static/media/facebook-look-a-like.png": "/static/media/facebook-look-a-like.063b169687384b1da11d.png",
+    "static/media/this-website.png": "/static/media/this-website.476f5577b9cf279eeeb0.png",
+    "static/media/jessica-benson.webp": "/static/media/jessica-benson.8dec7d02753633232305.webp",
+    "static/media/michelle-hoelzer.webp": "/static/media/michelle-hoelzer.e3646a9d080b6d4a4ffa.webp",
+    "static/media/fewd-kenzie.png": "/static/media/fewd-kenzie.bd1a3f441837f6127b86.png",
+    "static/media/fswd-kenzie.png": "/static/media/fswd-kenzie.44b83d05b612d03f1fee.png",
+    "static/media/jads.png": "/static/media/jads.e40d24920ccabef49071.png",
+    "static/media/cheria-artis.webp": "/static/media/cheria-artis.56fa0840079bf03c2128.webp",
+    "static/media/rwd.png": "/static/media/rwd.180872ba76e5f41417ca.png",
+    "static/media/scwp.png": "/static/media/scwp.9e1137f3b9156e7c58dd.png",
+    "static/media/fedl.png": "/static/media/fedl.b0936da460c3cf694f75.png",
+    "static/media/dv.png": "/static/media/dv.f933e2f7d8541a00cc02.png",
+    "static/media/quinton-price.webp": "/static/media/quinton-price.30ec720251e0461cf6ba.webp",
+    "static/media/jordan-haagenson.webp": "/static/media/jordan-haagenson.c3e59af5733a82fd3f10.webp",
+    "static/media/about.jpg": "/static/media/about.39dab4df3ee39346f367.jpg",
+    "static/media/silvester-jumba.webp": "/static/media/silvester-jumba.a043cc4953b7bb62a89e.webp",
+    "static/media/haja-sims-childs.webp": "/static/media/haja-sims-childs.7f62eddaefce447bd2d1.webp",
+    "static/media/piero-madar.webp": "/static/media/piero-madar.ccb04394b287b8061fd0.webp",
+    "index.html": "/index.html",
+    "main.0603455b.css.map": "/static/css/main.0603455b.css.map",
+    "main.4a3979f7.js.map": "/static/js/main.4a3979f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0603455b.css",
+    "static/js/main.4a3979f7.js"
+  ]
+}
